@@ -7,11 +7,17 @@
 // array.Inside the array, include at least 4 values.
 let goodDoggo = {
   //your code in here
+  name: "Artie",
+  legs: 4,
+  tail: true,
+  likes: ["Chasing a ball", "Bones", "barking at the mail man", "chasing cats"]
+
 }
 
 
 // write a function that returns the value of the legs property on your dog object using dot notation.
 function howManyLegs() {
+  return goodDoggo.legs
   // your code inside here
   // don't forget to use the return keyword
 }
@@ -30,8 +36,8 @@ let cat = {
 // the value of the name property.
 function renameCat() {
   // your code inside here
-}
 
+}
 // Create a function that uses dot or bracket notation to create a property 
 // on the cat object called "color" and assign it to any color you'd like. 
 // Then return the value of the color property.
